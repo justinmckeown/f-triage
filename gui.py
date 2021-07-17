@@ -8,9 +8,9 @@ import hashmatch
 class HasherApp:
     def __init__(self, master):
         self.master = master
-        self.master.title("Hash Me Ashlee")
+        self.master.title("F-Triage")
         self.master.minsize(750,500)
-        self.master.tk.call('wm', 'iconphoto', self.master._w, PhotoImage(file='icons/window_icon.png'))
+        #self.master.tk.call('wm', 'iconphoto', self.master._w, PhotoImage(file='icons/window_icon.png'))
         
         self.width = master.winfo_screenwidth()
         self.height = master.winfo_screenheight()
@@ -19,44 +19,64 @@ class HasherApp:
         button_frame = Frame(master)
         results_frame = Frame(master)
 
-        #Path to file setup
-        self.myLabel = Label(search_frame, text="Path to Folder: ")
-        self.myButton = Button(search_frame, text="Find Folder", command=self.get_filepath)
+        #Path to Target setup
+        self.target_label = Label(search_frame, text="Target:")
+        self.target_button = Button(search_frame, text="Select", command=self.get_filepath)
         self.the_file_path = Entry(search_frame)
-        self.hashButton = Button(button_frame, text="Hash Files", command=self.go_hash)
-        
-        #setup hashlist
-        #self.available_hashes = diectorydive.get_hashing_algs()
-        
-        #TODO: Finish setting the default value to sha1 hash. Replace the following 3ish lines with a list comprehension
-        self.option_val = StringVar()
-        place = self.option_default_val()
-        self.option_val.set(self.available_hashes[place])
-        self.option_menu = OptionMenu(button_frame, self.option_val, self.option_val.get(), *self.available_hashes)
-        self.hashButton.update_idletasks()
-        
+
+        #Path to Hashes setup
+        self.hash_label = Label(search_frame, text="Hash Files: ")
+        self.select_hash_button = Button(search_frame, text="Select", command=self.get_filepath)
+        self.the_hash_path = Entry(search_frame)
+
+        #Path to Save location setup
+        self.report_label = Label(search_frame, text="Report Save Location: ")
+        self.select_report_button = Button(search_frame, text="Select", command=self.get_filepath)
+        self.the_report_path = Entry(search_frame)
+
         #Report setup
         self.report_header = LabelFrame(results_frame, text='Report')
         self.report_text = Text(self.report_header)
         self.scrollbar = Scrollbar(self.report_header, command=self.report_text.yview)
         self.report_text['yscrollcommand'] = self.scrollbar.set
 
+        #find hashes button
+        self.hash_button = Button(button_frame, text="Search", command=self.go_hash)
+        self.hash_button.update_idletasks()
+        
+
 
         #grid layout....
-        self.myLabel.grid(row=0, column=0, padx=5, pady=10)
+        
+        #Row 0: the Target drive
+        self.target_label.grid(row=0, column=0, padx=5, pady=10, sticky=(E))
         self.the_file_path.grid(row=0, column=1, columnspan=3, padx=5, pady=10, sticky=(W,E))
-        self.myButton.grid(row=0, column=4, padx=5, pady=5, sticky=(E))
-        self.option_menu.grid(row=1, column=3, padx=5, pady=2, sticky=(E,W))
-        self.hashButton.grid(row=1, column=4, padx=5, pady=2, sticky=(E))
+        self.target_button.grid(row=0, column=4, padx=5, pady=5, sticky=(E))
+
+        #Row 1: the Location of the Hash files
+        self.hash_label.grid(row=1, column=0, padx=5, pady=10, sticky=(E))
+        self.the_hash_path.grid(row=1, column=1, columnspan=3, padx=5, pady=10, sticky=(W,E))
+        self.select_hash_button.grid(row=1, column=4, padx=5, pady=5, sticky=(E))
+
+        #Row 2: the Location of the Hash files
+        self.report_label.grid(row=2, column=0, padx=5, pady=10, sticky=(E))
+        self.the_report_path.grid(row=2, column=1, columnspan=3, padx=5, pady=10, sticky=(W,E))
+        self.select_report_button.grid(row=2, column=4, padx=5, pady=5, sticky=(E))
+
         
         self.report_header.grid(row=0, column=0, padx=10, pady=10, sticky=(N,S,W,E))
         self.report_text.grid(row=0, column=0, padx=10, pady=10, sticky=(N,S,W,E))
         self.scrollbar.grid(row=0, column=1, sticky=(N,S,E))
+
+        #Row 2: The Search button
+        self.hash_button.grid(row=0, column=4, padx=5, pady=2, sticky=(E))
+
+
         
         #Add frames to 
         search_frame.grid(row=0, column=0, columnspan=2, sticky=(N,W,E))
-        button_frame.grid(row=1, column=1, sticky=(N,E))
-        results_frame.grid(row=2, column=0, columnspan=2, sticky=(N,S,E,W))
+        results_frame.grid(row=1, column=0, columnspan=2, sticky=(N,S,E,W))
+        button_frame.grid(row=2, column=1, sticky=(N,E))
 
         #configure searchframes expanding
         search_frame.columnconfigure(0, weight=0)
@@ -114,7 +134,7 @@ class HasherApp:
 
 
 if __name__ == '__main__':
-    diectorydive.get_os_details() #get the details for the kind of system the program is running on...
+    hashmatch.get_os_details() #get the details for the kind of system the program is running on...
     root = Tk()
     my_app = HasherApp(root)
     root.mainloop()

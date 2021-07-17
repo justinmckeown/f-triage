@@ -4,7 +4,6 @@ import platform
 import gc
 import hashlib
 from datetime import datetime
-from kapeargs import get_args
 from hashlists import Hashlists
 
 os_details = {}
