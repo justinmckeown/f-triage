@@ -21,17 +21,17 @@ class HasherApp:
 
         #Path to Target setup
         self.target_label = Label(search_frame, text="Target:")
-        self.target_button = Button(search_frame, text="Select", command=self.get_filepath)
-        self.the_file_path = Entry(search_frame)
+        self.target_button = Button(search_frame, text="Select", command=self.get_target_path)
+        self.the_target_path = Entry(search_frame)
 
         #Path to Hashes setup
         self.hash_label = Label(search_frame, text="Hash Files: ")
-        self.select_hash_button = Button(search_frame, text="Select", command=self.get_filepath)
+        self.select_hash_button = Button(search_frame, text="Select", command=self.get_hash_path)
         self.the_hash_path = Entry(search_frame)
 
         #Path to Save location setup
         self.report_label = Label(search_frame, text="Report Save Location: ")
-        self.select_report_button = Button(search_frame, text="Select", command=self.get_filepath)
+        self.select_report_button = Button(search_frame, text="Select", command=self.get_report_path)
         self.the_report_path = Entry(search_frame)
 
         #Report setup
@@ -50,7 +50,7 @@ class HasherApp:
         
         #Row 0: the Target drive
         self.target_label.grid(row=0, column=0, padx=5, pady=10, sticky=(E))
-        self.the_file_path.grid(row=0, column=1, columnspan=3, padx=5, pady=10, sticky=(W,E))
+        self.the_target_path.grid(row=0, column=1, columnspan=3, padx=5, pady=10, sticky=(W,E))
         self.target_button.grid(row=0, column=4, padx=5, pady=5, sticky=(E))
 
         #Row 1: the Location of the Hash files
@@ -103,22 +103,30 @@ class HasherApp:
                 return index
         else:
             return 0
-        
-
-        
-    def get_filepath(self):
-        self.the_file_path.delete(0,'end')
+    
+    def get_target_path(self):
+        self.the_target_path.delete(0,'end')
         pth = askdirectory()
         print(f'PATH: {pth}')
-        self.the_file_path.insert(0,pth)
-    
+        self.the_target_path.insert(0,pth)
+        
+    def get_hash_path(self):
+        self.the_hash_path.delete(0,'end')
+        pth = askdirectory()
+        self.the_hash_path.insert(0,pth)
+
+    def get_report_path(self):
+        self.the_report_path.delete(0,'end')
+        pth = askdirectory()
+        self.the_report_path.insert(0,pth)
+
     def go_hash(self):
-        if not self.the_file_path.get():
-            messagebox.showinfo("NO FILE PATH","Please set the file path to the folder containing the files you wish to produce hash signtatures for")
+        if not self.the_target_path.get() or not self.the_hash_path.get() or not self.the_report_path.get():
+            messagebox.showinfo("TARGET, HASH AND SAVE PATHS ARE REQUIRED: ","Please set the path to each of the required locations.")
         else:
             try:
                 diectorydive.hash_type = str(self.option_val.get())
-                report = diectorydive.itterate(self.the_file_path.get())
+                report = diectorydive.itterate(self.the_target_path.get())
             except Exception as e:
                 messagebox.showerror("ERROR", f"something has gone wrong while attempting to produce hashes of your files. Message is as follows:\n {e}")
             finally:
@@ -131,6 +139,7 @@ class HasherApp:
         self.report_text.delete(1.0, 'end')
         for index, entry in enumerate(l,start=0):
             self.report_text.insert(float(index+1), entry)
+            
 
 
 if __name__ == '__main__':
