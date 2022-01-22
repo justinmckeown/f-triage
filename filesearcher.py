@@ -3,11 +3,13 @@ from operator import truediv
 import os
 import sys
 import platform
+from filereadwriteutility import *
 import hashlib
 from datetime import datetime
 import typing
 from xmlrpc.client import boolean
 from datamodels import HashMatch
+import tkinter as tk
 
 logger = logging.getLogger()
 
@@ -19,8 +21,9 @@ class FileSearcher:
         self.timestamps: typing.Dict[str, str] = {'start': (datetime.now()).strftime("%Y/%m/%d, %H:%M:%S") , 'finish': ''}
         self.hashes: typing.List[tuple] = [] 
         self.matches: typing.List[HashMatch] = []
-        self.image_only_search: bool = image_only
+        self.image_only_search = image_only
         self.IMG_FILE_TYPES = ['.jpg', '.jepg', '.jpeg2000', '.jpeg 2000', '.png', '.gif', '.webp', '.tif', '.tiff', '.psd', '.raw', '.bmp', '.heif', '.indd']
+        self.files_checked: int = 0
 
     
     def build_hash_lists(self):
@@ -41,7 +44,7 @@ class FileSearcher:
             logger.debug(f'COMPLETE: FileSearcher.build_hash_lists()')
     
 
-    def search_directories(self):
+    def search_directories(self, gui_counter: tk.StringVar):
         for currentDir, subs, files in os.walk(self.target_dir):
             if files:
                 for fl in files:
@@ -50,15 +53,19 @@ class FileSearcher:
                         if f_extension in (extension for extension in self.IMG_FILE_TYPES):
                             self._compare_hashes(os.path.join(currentDir, fl))
                     else:
-                        self._compare_hashes(os.path.join(currentDir, fl), f_name)
+                        self._compare_hashes(os.path.join(currentDir, fl), fl)
+                    self.files_checked += 1
+                    gui_counter.set(str(self.files_checked))
 
     
     def write_report(self):
-        print(f'FOR REPORT: ')
-        for mtc in self.matches:
-            print(f'LIST: {mtc.hash_list_name} NAME: {mtc.file_name} HASH: {mtc.hash} PATH: {mtc.file_path} TIMESTAMP: {mtc.timestamp_found}')
+        save_file_name = (datetime.now().strftime('%Y-%m-d-%H-%M-%S'))+'-f_triage_report'
+        write_txt(save_file_name+'.txt',self.save_dir,[f'START TIME: {self.timestamps.get("start")}', f'END TIME: {self.timestamps.get("finish")} ', f'NUMBER OF FILES CHECKED: {self.files_checked}' ,f'NUMBER OF HASHES MATCHED: {len(self.matches)}'])
+        if len(self.matches) > 0:
+            write_csv(save_file_name+'.csv', self.save_dir, ['Hash File Source','Hash', 'Matched to File', 'File Path', 'Timestamp  matched'], [[x.hash_list_name, x.hash, x.file_name, x.file_path, str(x.timestamp_found)] for x in self.matches])
 
-
+    def timestamp_finish(self):
+        self.timestamps['finish'] = (datetime.now()).strftime("%Y/%m/%d, %H:%M:%S") 
 
 
     def _compare_hashes(self, the_file: str, file_name: str):
@@ -70,7 +77,6 @@ class FileSearcher:
                 h.update(mv[:n])
         hash_of_file = h.hexdigest()
         hash_found = filter(lambda x: x[1] == hash_of_file, self.hashes)
-        [print(f'self.hashes LIST: {x}') for x in self.hashes]
 
         #TODO: Write any matching hashes to the self.match list
         for m in hash_found:
