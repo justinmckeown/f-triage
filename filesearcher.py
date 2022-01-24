@@ -72,7 +72,7 @@ class FileSearcher:
         write_txt(save_file_name+'.txt',self.save_dir,[f'START TIME: {self.timestamps.get("start")}', f'END TIME: {self.timestamps.get("finish")} ', f'NUMBER OF FILES CHECKED: {self.files_checked}' ,f'NUMBER OF HASHES MATCHED: {len(self.matches)}'])
         if len(self.matches) > 0:
             write_csv(save_file_name+'-matched.csv', self.save_dir, ['Hash File Source','Hash', 'Matched to File', 'File Path', 'Timestamp  matched'], [[x.hash_list_name, x.hash, x.file_name, x.file_path, str(x.timestamp_found)] for x in self.matches])
-        write_csv(save_file_name+'-unhashed_files.csv',self.save_dir, ['File Name', 'Directory', 'Reason it was not Hashed', 'Timestamp'], [[x.file_name, x.location, x.reason, x.timestamp] for x in self.unhashed_files])
+        write_csv(save_file_name+'-unhashed-files.csv',self.save_dir, ['File Name', 'Directory', 'Reason it was not Hashed', 'Timestamp'], [[x.file_name, x.location, x.reason, x.timestamp] for x in self.unhashed_files])
 
 
 

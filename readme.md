@@ -5,16 +5,16 @@ The aim of this project is to produce a simple to use, lightweight tool for chec
 Currently working toward minimum viable product. 
 
 ## How it Works
-This tool will walk thorugh a hard drive or directory, producing hashes of each file it finds therein and checking this hash against one or more a lists of hashes that the user has supplied. If a matching hash is found it is reported to the user. At the end of the search process the programme write three reports for the user. these are:
-1.  **f_triate_report.txt** - *A basic report of the search process*
-2. **f_triage_report.csv** - *A list of all files matched with relevent supporting details*
-3. **f_traige_report.csv** - *A list of all files which oculd not be accessed while searching* 
+This tool will walk thorugh a hard drive or directory, producing hashes of each file it finds therein and checking this hash against one or more of a lists of hashes that the user has supplied. If a matching hash is found it is reported to the user. At the end of the search process the program will write three reports for the user. these are:
+1. **f_triage_report.txt** - *A basic report of the search process*
+2. **f_triage_report-matched.csv** - *A list of all files matched with relevent supporting details*
+3. **f_traige_report-unhashed-files.csv** - *A list of all files which oculd not be accessed while searching* 
 
 ### Instructions for use: 
-The program boots and you're presented with a GUI. The GUI has three text inputs. Click the **Select** button besude each text input to naviagate to the apporpriate folders and the fields will autopopulate. For clarity:  
+When the program boots you are presented with a GUI. The GUI has three text inputs. Click the **Select** button beside each text input to naviagate to the apporpriate folders and the fields will auto-populate. For clarity:  
 - **Target** *The directory or drive you want to search*
 - **Hash Files** *The **directory** containing the .txt files that list the hashes you want to search the target for*
-- **Report Save L:ocation** *The **directory** you want the reports listed above under **How it Works** saved to when the proces completes*  
+- **Report Save Location** *The **directory** you want the above mentioned reports saved to when the proces completes*  
 
 ## Tests and Known Issues
 I have performed the following tests on this software:
@@ -31,5 +31,6 @@ We are currently trying to resolve the following:
 - some poeple have reported issues with Accessing network drives 
 
 ## Planned features
-- Mount EO1 files from wihtin **f_traige**
+- Mount EO1 files from within **f_traige**
 - Read and examine virtual disk images
+- Image Search mode only
