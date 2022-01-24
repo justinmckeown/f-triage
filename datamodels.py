@@ -8,3 +8,10 @@ class HashMatch:
         self.file_name: str = file_name
         self.file_path: str = file_path
         self.timestamp_found = (datetime.now()).strftime("%Y-%m-%d %H:%M:%S.%f")
+
+class UncheckedFiles:
+    def __init__(self, file_name: str, location: str, reason: str) -> None:
+        self.file_name = file_name
+        self.location = location
+        self.reason = reason
+        self.timestamp = (datetime.now()).strftime("%Y-%m-%d %H:%M:%S.%f")

@@ -1,5 +1,5 @@
-from concurrent.futures import thread
 import logging
+from pathlib import Path, PosixPath, PureWindowsPath
 from multiprocessing.sharedctypes import Value
 import tkinter as tk
 from tkinter import ttk
@@ -62,13 +62,8 @@ class RootVieweController(tk.Tk):
         #find hashes button
         self.hash_button = Button(self.button_frame, text="Search", command=self.go_hash)
         self.hash_button.update_idletasks()
-        
-        
-        
-
 
         #grid layout....
-        
         #Row 0: the Target drive
         self.target_label.grid(row=0, column=0, padx=5, pady=10, sticky=(E))
         self.the_target_path.grid(row=0, column=1, columnspan=3, padx=5, pady=10, sticky=(W,E))
@@ -124,19 +119,19 @@ class RootVieweController(tk.Tk):
     
     def get_target_path(self):
         self.the_target_path.delete(0,'end')
-        self.target_pth = askdirectory()
+        self.target_pth = Path(askdirectory())
         logger.debug(f'Setting Target path: {self.target_pth}')
         self.the_target_path.insert(0,self.target_pth)
         
     def get_hash_path(self):
         self.the_hash_path.delete(0,'end')
-        self.hash_pth = askdirectory()
+        self.hash_pth = Path(askdirectory())
         logger.debug(f'Setting Hash path: {self.hash_pth}')
         self.the_hash_path.insert(0,self.hash_pth)
 
     def get_report_path(self):
         self.the_report_path.delete(0,'end')
-        self.report_pth = askdirectory()
+        self.report_pth = Path(askdirectory())
         logger.debug(f'Setting Hash path: {self.report_pth}')
         self.the_report_path.insert(0,self.report_pth)
 
@@ -147,20 +142,31 @@ class RootVieweController(tk.Tk):
             if self.tree.get_children():
                 self._clear_tree()
             
+            #TODO: Make this also update the table view adding an item each time it finds a new a entry...
             #Add to the GUI so we can show the user updates on the infromation being processed...
+            self.processed_label = Label(self.button_frame, text='Files Hashed: ')
+            self.unprocessed_label = Label(self.button_frame, text='Files Unhashed: ')
             self.files_processed = tk.StringVar(value=str(0))
+            self.files_unprocessed = tk.StringVar(value=str(0))
             self.files_processed_label = Label(self.button_frame, textvariable=self.files_processed)
-            self.files_processed_label.grid(row=1, column=4, padx=2, sticky=(E))
+            self.files_unprocessed_label = Label(self.button_frame, textvariable=self.files_unprocessed)
+            
+            self.processed_label.grid(row=1, column=1, padx=2, sticky=(W))
+            self.files_processed_label.grid(row=1, column=2, padx=2, sticky=(W))
+            
+            self.unprocessed_label.grid(row=2, column=1, padx=2, sticky=(W))
+            self.files_unprocessed_label.grid(row=2, column=2, padx=2, sticky=(W))
+
+
             t = threading.Thread(target=self._run_search_thread)
             t.start()
-                
-               
+                   
     
     def _run_search_thread(self): 
         try:
             file_searcher = FileSearcher(self.target_pth,self.report_pth, self.hash_pth, False)
             file_searcher.build_hash_lists()
-            file_searcher.search_directories(self.files_processed)
+            file_searcher.search_directories(self.files_processed, self.files_unprocessed)
             self.files_processed.set(str(file_searcher.files_checked))
             if file_searcher.matches:
                 for m in file_searcher.matches:

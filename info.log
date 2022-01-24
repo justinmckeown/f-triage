@@ -1,286 +1,85 @@
-2022-01-19 19:51:46,105 DEBUG :: Setting Target path: C:/Users/j.mckeown/Documents/_01-TEST/images
-2022-01-19 19:52:00,106 DEBUG :: Setting Hash path: 
-2022-01-19 19:52:19,934 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-19 19:52:25,731 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-19 19:52:27,732 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-19 19:52:27,733 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-19 19:53:24,923 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-19 19:53:24,924 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-19 19:56:09,183 DEBUG :: Setting Target path: 
-2022-01-19 19:56:14,934 DEBUG :: Setting Target path: C:/Users/j.mckeown/Documents/_01-TEST/images
-2022-01-19 19:56:22,293 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-19 19:56:28,731 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-19 19:56:30,107 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-19 19:56:30,108 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-19 20:00:50,574 DEBUG :: Setting Target path: C:/Users/j.mckeown/Documents/_01-TEST/images
-2022-01-19 20:00:55,450 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-19 20:01:00,481 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-19 20:01:01,890 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-19 20:01:01,891 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-19 20:11:00,340 DEBUG :: Setting Target path: C:/Users/j.mckeown/Documents/_01-TEST/images
-2022-01-19 20:11:04,574 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-19 20:11:08,886 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-19 20:11:13,247 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-19 20:11:13,248 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-19 20:13:30,981 DEBUG :: Setting Target path: C:/Users/j.mckeown/Documents/_01-TEST/images
-2022-01-19 20:13:35,933 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-19 20:13:40,433 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-19 20:13:41,887 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-19 20:13:41,888 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-20 21:15:30,254 DEBUG :: Setting Target path: C:/Users/j.mckeown/Documents/_01-TEST/images
-2022-01-20 21:15:38,254 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-20 21:15:43,332 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-20 21:15:46,723 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-20 21:15:46,725 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-20 21:24:28,894 DEBUG :: Setting Target path: C:/Users/j.mckeown/Documents/_01-TEST/images
-2022-01-20 21:24:34,379 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-20 21:24:41,410 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-20 21:24:42,305 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-20 21:24:42,307 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-20 21:25:52,582 DEBUG :: Setting Target path: C:/Users/j.mckeown/Documents/_01-TEST/images
-2022-01-20 21:26:01,176 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-20 21:26:04,285 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-20 21:26:08,472 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-20 21:26:10,481 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-20 21:26:10,481 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-20 21:27:07,336 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-20 21:27:07,336 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-20 21:27:11,128 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-20 21:27:11,128 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-20 21:27:13,720 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-20 21:27:13,720 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-20 21:27:16,688 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-20 21:27:16,689 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-20 21:30:27,082 DEBUG :: Setting Target path: C:/Users/j.mckeown/Documents/_01-TEST/images
-2022-01-20 21:30:33,504 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-20 21:30:39,582 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-20 21:30:40,631 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-20 21:30:40,632 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-20 21:33:57,348 DEBUG :: Setting Target path: C:/Users/j.mckeown/Documents/_01-TEST/images
-2022-01-20 21:34:01,832 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-20 21:34:06,598 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-20 21:34:07,846 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-20 21:34:07,847 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-20 21:34:10,606 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-20 21:34:10,607 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-20 21:34:12,446 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-20 21:34:12,447 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-20 21:34:14,927 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-20 21:34:14,928 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-20 21:39:30,535 DEBUG :: Setting Target path: C:/Users/j.mckeown/Documents/_01-TEST/images
-2022-01-20 21:39:34,879 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-20 21:39:39,082 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-20 21:39:40,557 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-20 21:39:40,558 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-20 21:41:24,207 DEBUG :: Setting Target path: C:/Users/j.mckeown/Documents/_01-TEST/images
-2022-01-20 21:41:29,019 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-20 21:41:33,473 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-20 21:41:33,981 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-20 21:41:33,982 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-20 21:41:36,317 DEBUG :: _clear_tree called
-2022-01-20 21:42:06,037 DEBUG :: _clear_tree called
-2022-01-20 21:43:26,394 DEBUG :: Setting Target path: C:/Users/j.mckeown/Documents/_01-TEST/images
-2022-01-20 21:43:30,550 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-20 21:43:35,129 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-20 21:43:36,148 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-20 21:43:36,149 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-20 21:43:38,252 DEBUG :: _clear_tree called
-2022-01-20 21:43:38,253 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-20 21:43:38,254 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-20 21:43:41,036 DEBUG :: _clear_tree called
-2022-01-20 21:43:41,037 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-20 21:43:41,037 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-22 14:27:12,135 DEBUG :: Setting Target path: C:/Users/j.mckeown/Documents/_01-TEST/images
-2022-01-22 14:27:16,822 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-22 14:27:21,072 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-22 14:27:22,643 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-22 14:27:22,646 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-22 14:27:34,147 DEBUG :: _clear_tree called
-2022-01-22 14:27:34,148 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-22 14:27:34,148 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-22 14:28:32,057 DEBUG :: Setting Target path: C:/Users/j.mckeown/Documents/_01-TEST/images
-2022-01-22 14:28:36,853 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-22 14:28:40,822 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-22 14:28:41,618 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-22 14:28:41,619 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-22 14:47:36,775 DEBUG :: Setting Target path: C:/Users/j.mckeown/Documents/_01-TEST/images
-2022-01-22 14:47:41,338 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-22 14:47:45,728 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-22 14:47:46,830 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-22 14:47:46,831 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-22 14:47:48,349 DEBUG :: Writing f_triage_report to  C:/Users/j.mckeown/Documents/_01-TEST/reportf_triage_report
-2022-01-22 14:48:16,322 DEBUG :: Setting Hash path: 
-2022-01-22 14:53:31,744 DEBUG :: Setting Target path: C:/Users/j.mckeown/Documents/_01-TEST/images
-2022-01-22 14:53:37,088 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-22 14:53:41,697 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-22 14:53:42,868 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-22 14:53:42,869 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-22 14:53:52,076 DEBUG :: Writing f_triage_report.csv to  C:/Users/j.mckeown/Documents/_01-TEST/report\f_triage_report.csv
-2022-01-22 14:57:13,135 DEBUG :: Setting Target path: C:/Users/j.mckeown/Documents/_01-TEST/images
-2022-01-22 15:01:06,025 DEBUG :: Setting Target path: C:/Users/j.mckeown/Documents/_01-TEST/images
-2022-01-22 15:01:09,822 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-22 15:01:13,916 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-22 15:03:01,916 DEBUG :: Setting Target path: C:/Users/j.mckeown/Documents/_01-TEST/images
-2022-01-22 15:03:05,932 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-22 15:03:12,525 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-22 15:03:13,682 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-22 15:03:13,683 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-22 15:03:15,538 DEBUG :: Writing 2022:01:d 15:03:15.538344f_triage_report.csv to  C:/Users/j.mckeown/Documents/_01-TEST/report\2022:01:d 15:03:15.538344f_triage_report.csv
-2022-01-22 15:04:28,291 DEBUG :: Setting Target path: C:/Users/j.mckeown/Documents/_01-TEST/images
-2022-01-22 15:04:32,369 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-22 15:04:36,525 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-22 15:04:36,962 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-22 15:04:36,963 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-22 15:04:38,322 DEBUG :: Writing 2022-01-d-15-04-38-322307f_triage_report.csv to  C:/Users/j.mckeown/Documents/_01-TEST/report\2022-01-d-15-04-38-322307f_triage_report.csv
-2022-01-22 15:05:59,072 DEBUG :: Setting Target path: C:/Users/j.mckeown/Documents/_01-TEST/images
-2022-01-22 15:06:02,838 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-22 15:06:06,807 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-22 15:06:07,394 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-22 15:06:07,395 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-22 15:06:09,889 DEBUG :: Writing 2022-01-d-15-06-09-889663f_triage_report.csv to  C:/Users/j.mckeown/Documents/_01-TEST/report\2022-01-d-15-06-09-889663f_triage_report.csv
-2022-01-22 15:07:31,088 DEBUG :: Setting Target path: C:/Users/j.mckeown/Documents/_01-TEST/images
-2022-01-22 15:07:36,541 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-22 15:07:40,666 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-22 15:07:41,569 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-22 15:07:41,570 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-22 15:07:43,169 DEBUG :: Writing 2022-01-d-15-07-43-169057f_triage_report.csv to  C:/Users/j.mckeown/Documents/_01-TEST/report\2022-01-d-15-07-43-169057f_triage_report.csv
-2022-01-22 15:10:23,525 DEBUG :: Setting Target path: C:/Users/j.mckeown/Documents/_01-TEST/images
-2022-01-22 15:10:27,025 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-22 15:10:31,416 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-22 15:10:32,305 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-22 15:10:32,305 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-22 15:10:33,842 DEBUG :: Writing 2022-01-d-15-10-33-842400f_triage_report.csv to  C:/Users/j.mckeown/Documents/_01-TEST/report\2022-01-d-15-10-33-842400f_triage_report.csv
-2022-01-22 15:17:32,057 DEBUG :: Setting Target path: C:/Users/j.mckeown/Documents/_01-TEST/images
-2022-01-22 15:17:39,307 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-22 15:17:43,619 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-22 15:17:44,815 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-22 15:17:44,816 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-22 15:17:46,173 DEBUG :: Writing 2022-01-d-15-17-46-173731f_triage_report.csv to  C:/Users/j.mckeown/Documents/_01-TEST/report\2022-01-d-15-17-46-173731f_triage_report.csv
-2022-01-22 16:34:30,853 DEBUG :: Setting Target path: C:/Users/j.mckeown/Documents/_01-TEST/images
-2022-01-22 16:34:35,041 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-22 16:34:55,103 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-22 16:34:57,094 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-22 16:34:57,094 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-22 16:35:35,463 DEBUG :: Setting Target path: C:/Users/j.mckeown/Documents/_01-TEST/images
-2022-01-22 16:35:39,478 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-22 16:35:45,009 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-22 16:35:46,189 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-22 16:35:46,190 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-22 16:35:47,748 DEBUG :: Writing 2022-01-d-16-35-47-f_triage_report.csv to  C:/Users/j.mckeown/Documents/_01-TEST/report\2022-01-d-16-35-47-f_triage_report.csv
-2022-01-22 16:36:32,729 DEBUG :: Setting Target path: C:/Users/j.mckeown/Documents/_01-TEST/images
-2022-01-22 16:36:36,978 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-22 16:36:40,807 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-22 16:36:41,429 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-22 16:36:41,429 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-22 16:36:42,595 DEBUG :: Writing 2022-01-d-16-36-42-f_triage_report.csv to  C:/Users/j.mckeown/Documents/_01-TEST/report\2022-01-d-16-36-42-f_triage_report.csv
-2022-01-22 16:36:42,596 DEBUG :: Writing 2022-01-d-16-36-42-f_triage_report.csv to  C:/Users/j.mckeown/Documents/_01-TEST/report\2022-01-d-16-36-42-f_triage_report.csv
-2022-01-22 16:39:43,197 DEBUG :: Setting Target path: C:/Users/j.mckeown/Documents/_01-TEST/images
-2022-01-22 16:39:47,650 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-22 16:39:52,166 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-22 16:39:53,252 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-22 16:39:53,253 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-22 16:39:56,156 DEBUG :: Writing 2022-01-d-16-39-56-f_triage_report.txt to  C:/Users/j.mckeown/Documents/_01-TEST/report\2022-01-d-16-39-56-f_triage_report.txt
-2022-01-22 16:39:56,157 DEBUG :: Writing 2022-01-d-16-39-56-f_triage_report.csv to  C:/Users/j.mckeown/Documents/_01-TEST/report\2022-01-d-16-39-56-f_triage_report.csv
-2022-01-22 16:42:21,697 DEBUG :: Setting Target path: C:/Users/j.mckeown/Documents/_01-TEST/images
-2022-01-22 16:42:25,635 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-22 16:42:29,807 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-22 16:42:30,380 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-22 16:42:30,381 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-22 16:42:31,818 DEBUG :: Writing 2022-01-d-16-42-31-f_triage_report.txt to  C:/Users/j.mckeown/Documents/_01-TEST/report\2022-01-d-16-42-31-f_triage_report.txt
-2022-01-22 16:42:31,819 DEBUG :: Writing 2022-01-d-16-42-31-f_triage_report.csv to  C:/Users/j.mckeown/Documents/_01-TEST/report\2022-01-d-16-42-31-f_triage_report.csv
-2022-01-22 16:44:38,119 DEBUG :: Setting Target path: C:/Users/j.mckeown/Documents/_01-TEST/images
-2022-01-22 16:44:42,010 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-22 16:44:46,229 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-22 16:44:49,963 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-22 16:44:49,964 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-22 16:44:51,434 DEBUG :: Writing 2022-01-d-16-44-51-f_triage_report.txt to  C:/Users/j.mckeown/Documents/_01-TEST/report\2022-01-d-16-44-51-f_triage_report.txt
-2022-01-22 16:44:51,435 DEBUG :: Writing 2022-01-d-16-44-51-f_triage_report.csv to  C:/Users/j.mckeown/Documents/_01-TEST/report\2022-01-d-16-44-51-f_triage_report.csv
-2022-01-22 16:45:51,447 DEBUG :: Setting Target path: C:/Users/j.mckeown/Documents/_01-TEST/images
-2022-01-22 16:45:55,119 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-22 16:45:59,729 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-22 16:46:00,283 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-22 16:46:00,284 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-22 16:46:01,922 DEBUG :: Writing 2022-01-d-16-46-01-f_triage_report.txt to  C:/Users/j.mckeown/Documents/_01-TEST/report\2022-01-d-16-46-01-f_triage_report.txt
-2022-01-22 16:46:01,923 DEBUG :: Writing 2022-01-d-16-46-01-f_triage_report.csv to  C:/Users/j.mckeown/Documents/_01-TEST/report\2022-01-d-16-46-01-f_triage_report.csv
-2022-01-22 16:53:55,885 DEBUG :: Setting Target path: C:/Users/j.mckeown/Dropbox
-2022-01-22 16:54:07,900 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-22 16:54:12,541 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-22 16:54:16,505 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-22 16:54:16,506 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-22 16:58:10,232 DEBUG :: Writing 2022-01-d-16-58-10-f_triage_report.txt to  C:/Users/j.mckeown/Documents/_01-TEST/report\2022-01-d-16-58-10-f_triage_report.txt
-2022-01-22 17:01:19,854 DEBUG :: Setting Target path: C:/Users/j.mckeown/Documents/_01-TEST/images
-2022-01-22 17:01:24,432 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-22 17:01:28,322 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-22 17:01:28,687 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-22 17:01:28,688 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-22 17:01:30,710 DEBUG :: Writing 2022-01-d-17-01-30-f_triage_report.txt to  C:/Users/j.mckeown/Documents/_01-TEST/report\2022-01-d-17-01-30-f_triage_report.txt
-2022-01-22 17:01:30,711 DEBUG :: Writing 2022-01-d-17-01-30-f_triage_report.csv to  C:/Users/j.mckeown/Documents/_01-TEST/report\2022-01-d-17-01-30-f_triage_report.csv
-2022-01-22 17:10:08,228 DEBUG :: Setting Target path: C:/Users/j.mckeown/Documents/_01-TEST/images
-2022-01-22 17:10:12,057 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-22 17:10:16,244 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-22 17:11:45,213 DEBUG :: Setting Target path: C:/Users/j.mckeown/Documents/_01-TEST/images
-2022-01-22 17:11:49,119 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-22 17:11:53,182 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-22 17:11:53,997 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-22 17:11:53,998 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-22 17:11:56,813 DEBUG :: Writing 2022-01-d-17-11-56-f_triage_report.txt to  C:/Users/j.mckeown/Documents/_01-TEST/report\2022-01-d-17-11-56-f_triage_report.txt
-2022-01-22 17:11:56,814 DEBUG :: Writing 2022-01-d-17-11-56-f_triage_report.csv to  C:/Users/j.mckeown/Documents/_01-TEST/report\2022-01-d-17-11-56-f_triage_report.csv
-2022-01-22 17:12:38,869 DEBUG :: Setting Target path: C:/Users/j.mckeown/Pictures
-2022-01-22 17:12:45,085 DEBUG :: _clear_tree called
-2022-01-22 17:12:45,086 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-22 17:12:45,086 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-22 17:12:50,180 DEBUG :: Writing 2022-01-d-17-12-50-f_triage_report.txt to  C:/Users/j.mckeown/Documents/_01-TEST/report\2022-01-d-17-12-50-f_triage_report.txt
-2022-01-22 17:12:50,182 DEBUG :: Writing 2022-01-d-17-12-50-f_triage_report.csv to  C:/Users/j.mckeown/Documents/_01-TEST/report\2022-01-d-17-12-50-f_triage_report.csv
-2022-01-22 17:13:04,588 DEBUG :: Setting Target path: C:/Users/j.mckeown/Dropbox
-2022-01-22 17:13:12,109 DEBUG :: _clear_tree called
-2022-01-22 17:13:12,109 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-22 17:13:12,110 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-22 17:13:22,463 DEBUG :: Setting Hash path: 
-2022-01-22 17:13:38,046 DEBUG :: Writing 2022-01-d-17-13-38-f_triage_report.txt to  C:/Users/j.mckeown/Documents/_01-TEST/report\2022-01-d-17-13-38-f_triage_report.txt
-2022-01-22 17:14:52,260 DEBUG :: Setting Target path: C:/Users/j.mckeown/Dropbox
-2022-01-22 17:15:00,041 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST
-2022-01-22 17:15:05,650 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-22 17:15:09,557 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-22 17:15:12,037 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-22 17:15:12,037 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-22 17:15:35,906 DEBUG :: Writing 2022-01-d-17-15-35-f_triage_report.txt to  C:/Users/j.mckeown/Documents/_01-TEST/report\2022-01-d-17-15-35-f_triage_report.txt
-2022-01-22 17:42:16,103 DEBUG :: Setting Target path: C:/Users/j.mckeown/Documents/_01-TEST/images
-2022-01-22 17:42:20,291 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-22 17:42:24,900 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-22 17:42:25,791 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-22 17:42:25,791 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-22 17:42:30,999 DEBUG :: Writing 2022-01-d-17-42-30-f_triage_report.txt to  C:/Users/j.mckeown/Documents/_01-TEST/report\2022-01-d-17-42-30-f_triage_report.txt
-2022-01-22 17:42:31,000 DEBUG :: Writing 2022-01-d-17-42-30-f_triage_report.csv to  C:/Users/j.mckeown/Documents/_01-TEST/report\2022-01-d-17-42-30-f_triage_report.csv
-2022-01-22 17:42:58,681 DEBUG :: Setting Target path: C:/Users/j.mckeown/Documents/_01-TEST/images
-2022-01-22 17:43:02,635 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-22 17:43:06,885 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-22 17:43:09,710 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-22 17:43:09,710 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-22 17:43:13,470 DEBUG :: Writing 2022-01-d-17-43-13-f_triage_report.txt to  C:/Users/j.mckeown/Documents/_01-TEST/report\2022-01-d-17-43-13-f_triage_report.txt
-2022-01-22 17:43:13,471 DEBUG :: Writing 2022-01-d-17-43-13-f_triage_report.csv to  C:/Users/j.mckeown/Documents/_01-TEST/report\2022-01-d-17-43-13-f_triage_report.csv
-2022-01-22 17:46:01,228 DEBUG :: Setting Target path: C:/Users/j.mckeown/Documents/_01-TEST/images
-2022-01-22 17:46:05,088 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-22 17:46:08,682 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-22 17:46:09,462 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-22 17:46:09,463 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-22 17:46:12,925 DEBUG :: Writing 2022-01-d-17-46-12-f_triage_report.txt to  C:/Users/j.mckeown/Documents/_01-TEST/report\2022-01-d-17-46-12-f_triage_report.txt
-2022-01-22 17:46:12,926 DEBUG :: Writing 2022-01-d-17-46-12-f_triage_report.csv to  C:/Users/j.mckeown/Documents/_01-TEST/report\2022-01-d-17-46-12-f_triage_report.csv
-2022-01-22 17:48:24,854 DEBUG :: Setting Target path: C:/Users/j.mckeown/Dropbox
-2022-01-22 17:48:34,338 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-22 17:48:39,197 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-22 17:49:00,677 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-22 17:49:00,677 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-22 17:49:31,493 DEBUG :: Writing 2022-01-d-17-49-31-f_triage_report.txt to  C:/Users/j.mckeown/Documents/_01-TEST/report\2022-01-d-17-49-31-f_triage_report.txt
-2022-01-22 17:49:31,494 DEBUG :: Writing 2022-01-d-17-49-31-f_triage_report.csv to  C:/Users/j.mckeown/Documents/_01-TEST/report\2022-01-d-17-49-31-f_triage_report.csv
-2022-01-22 18:01:24,103 DEBUG :: Setting Target path: C:/Users/j.mckeown/Documents
-2022-01-22 18:01:31,807 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-22 18:01:36,197 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-22 18:01:37,386 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-22 18:01:37,387 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-22 18:05:54,103 DEBUG :: Setting Target path: C:/Users/j.mckeown/Dropbox
-2022-01-22 18:06:03,181 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/hashesfolder
-2022-01-22 18:06:07,541 DEBUG :: Setting Hash path: C:/Users/j.mckeown/Documents/_01-TEST/report
-2022-01-22 18:06:08,345 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
-2022-01-22 18:06:08,346 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
-2022-01-22 18:06:56,105 DEBUG :: Writing 2022-01-d-18-06-56-f_triage_report.txt to  C:/Users/j.mckeown/Documents/_01-TEST/report\2022-01-d-18-06-56-f_triage_report.txt
-2022-01-22 18:06:56,106 DEBUG :: Writing 2022-01-d-18-06-56-f_triage_report.csv to  C:/Users/j.mckeown/Documents/_01-TEST/report\2022-01-d-18-06-56-f_triage_report.csv
+2022-01-23 20:56:43,072 DEBUG :: Setting Target path: G:\
+2022-01-23 20:56:55,229 DEBUG :: Setting Hash path: C:\Users\j.mckeown\Documents\_01-TEST\hashesfolder
+2022-01-23 20:56:59,791 DEBUG :: Setting Hash path: C:\Users\j.mckeown\Documents\_01-TEST\report
+2022-01-23 20:57:00,895 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
+2022-01-23 20:57:00,897 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
+2022-01-23 20:57:31,886 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 13] Permission denied: 'G:\\ProgramData\\Microsoft\\Windows Defender\\Scans\\History\\CacheManager\\B55404FA-0000-0000-0000-402400000000-0.bin'
+2022-01-23 20:57:32,904 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 22] Invalid argument: 'G:\\Users\\b.davies\\AppData\\Local\\Microsoft\\WindowsApps\\MicrosoftEdge.exe'
+2022-01-23 20:57:32,905 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 22] Invalid argument: 'G:\\Users\\b.davies\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\\python.exe'
+2022-01-23 20:57:32,906 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 22] Invalid argument: 'G:\\Users\\b.davies\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\\MicrosoftEdge.exe'
+2022-01-23 20:57:32,906 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 22] Invalid argument: 'G:\\Users\\b.davies\\AppData\\Local\\Microsoft\\WindowsApps\\SpotifyAB.SpotifyMusic_zpdnekdrzrea0\\Spotify.exe'
+2022-01-23 20:57:38,233 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 22] Invalid argument: 'G:\\Users\\support\\AppData\\Local\\Microsoft\\WindowsApps\\MicrosoftEdge.exe'
+2022-01-23 20:57:38,234 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 22] Invalid argument: 'G:\\Users\\support\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\\python.exe'
+2022-01-23 20:57:38,235 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 22] Invalid argument: 'G:\\Users\\support\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\\MicrosoftEdge.exe'
+2022-01-23 20:57:45,364 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 13] Permission denied: 'G:\\Windows\\Resources\\Themes\\aero\\VSCache\\Aero.msstyles_2057_96_01.mss'
+2022-01-23 20:58:14,445 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 13] Permission denied: 'G:\\Windows\\System32\\Microsoft\\Protect\\Recovery\\Recovery.dat'
+2022-01-23 20:58:51,741 INFO :: total files searched: 232797 Total files access denied: 10
+2022-01-23 20:58:59,270 DEBUG :: Writing 2022-01-d-20-58-59-f_triage_report.txt to  C:\Users\j.mckeown\Documents\_01-TEST\report\2022-01-d-20-58-59-f_triage_report.txt
+2022-01-23 20:58:59,272 DEBUG :: Writing 2022-01-d-20-58-59-f_triage_report-unhashed_files.csv to  C:\Users\j.mckeown\Documents\_01-TEST\report\2022-01-d-20-58-59-f_triage_report-unhashed_files.csv
+2022-01-23 21:05:43,275 DEBUG :: Setting Target path: G:\
+2022-01-23 21:05:51,713 DEBUG :: Setting Hash path: C:\Users\j.mckeown\Documents\_01-TEST\hashesfolder
+2022-01-23 21:05:57,025 DEBUG :: Setting Hash path: C:\Users\j.mckeown\Documents\_01-TEST\report
+2022-01-23 21:05:58,622 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
+2022-01-23 21:05:58,622 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
+2022-01-23 21:05:58,623 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 13] Permission denied: 'G:\\pagefile.sys'
+2022-01-23 21:06:14,867 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 13] Permission denied: 'G:\\ProgramData\\Microsoft\\User Account Pictures\\b.davies.dat'
+2022-01-23 21:06:15,513 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 13] Permission denied: 'G:\\Windows\\appcompat\\appraiser\\Appraiser_AlternateData.cab'
+2022-01-23 21:06:20,142 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 13] Permission denied: 'G:\\Windows\\Logs\\DPX\\setupact.log'
+2022-01-23 21:06:20,144 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 13] Permission denied: 'G:\\Windows\\Logs\\MoSetup\\UpdateAgent.log'
+2022-01-23 21:06:21,701 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 13] Permission denied: 'G:\\Windows\\Panther\\UnattendGC\\diagerr.xml'
+2022-01-23 21:06:21,925 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 13] Permission denied: 'G:\\Windows\\security\\database\\secedit.sdb'
+2022-01-23 21:07:06,322 DEBUG :: Setting Target path: C:\Users\j.mckeown\Dropbox
+2022-01-23 21:07:17,869 DEBUG :: Setting Hash path: C:\Users\j.mckeown\Documents\_01-TEST\hashesfolder
+2022-01-23 21:07:24,400 DEBUG :: Setting Hash path: C:\Users\j.mckeown\Documents\_01-TEST\report
+2022-01-23 21:07:25,390 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
+2022-01-23 21:07:25,390 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
+2022-01-23 21:10:41,631 INFO :: total files searched: 21631 Total files access denied: 0
+2022-01-23 21:10:48,786 DEBUG :: Writing 2022-01-d-21-10-48-f_triage_report.txt to  C:\Users\j.mckeown\Documents\_01-TEST\report\2022-01-d-21-10-48-f_triage_report.txt
+2022-01-23 21:10:48,787 DEBUG :: Writing 2022-01-d-21-10-48-f_triage_report-matched.csv to  C:\Users\j.mckeown\Documents\_01-TEST\report\2022-01-d-21-10-48-f_triage_report-matched.csv
+2022-01-23 21:10:48,788 DEBUG :: Writing 2022-01-d-21-10-48-f_triage_report-unhashed_files.csv to  C:\Users\j.mckeown\Documents\_01-TEST\report\2022-01-d-21-10-48-f_triage_report-unhashed_files.csv
+2022-01-23 21:13:51,948 DEBUG :: Setting Target path: G:\
+2022-01-23 21:14:08,010 DEBUG :: Setting Hash path: C:\Users\j.mckeown\Documents\_01-TEST\hashesfolder
+2022-01-23 21:14:15,307 DEBUG :: Setting Hash path: C:\Users\j.mckeown\Documents\_01-TEST\report
+2022-01-23 21:14:22,684 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
+2022-01-23 21:14:22,685 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
+2022-01-23 21:14:22,686 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 13] Permission denied: 'G:\\pagefile.sys'
+2022-01-23 21:14:44,651 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 13] Permission denied: 'G:\\ProgramData\\Microsoft\\User Account Pictures\\b.davies.dat'
+2022-01-23 21:14:45,413 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 13] Permission denied: 'G:\\Windows\\appcompat\\appraiser\\Appraiser_AlternateData.cab'
+2022-01-23 21:15:16,557 DEBUG :: Setting Target path: G:\
+2022-01-23 21:15:25,853 DEBUG :: Setting Hash path: C:\Users\j.mckeown\Documents\_01-TEST\hashesfolder
+2022-01-23 21:15:30,400 DEBUG :: Setting Hash path: C:\Users\j.mckeown\Documents\_01-TEST\report
+2022-01-23 21:15:31,677 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
+2022-01-23 21:15:31,677 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
+2022-01-23 21:15:31,677 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 13] Permission denied: 'G:\\pagefile.sys'
+2022-01-23 21:15:53,640 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 13] Permission denied: 'G:\\ProgramData\\Microsoft\\User Account Pictures\\b.davies.dat'
+2022-01-23 21:15:54,392 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 13] Permission denied: 'G:\\Windows\\appcompat\\appraiser\\Appraiser_AlternateData.cab'
+2022-01-23 21:15:59,589 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 13] Permission denied: 'G:\\Windows\\Logs\\DPX\\setupact.log'
+2022-01-23 21:15:59,592 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 13] Permission denied: 'G:\\Windows\\Logs\\MoSetup\\UpdateAgent.log'
+2022-01-23 21:16:01,386 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 13] Permission denied: 'G:\\Windows\\Panther\\UnattendGC\\diagerr.xml'
+2022-01-23 21:16:01,741 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 13] Permission denied: 'G:\\Windows\\security\\database\\secedit.sdb'
+2022-01-23 21:16:46,080 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 13] Permission denied: 'G:\\Windows\\System32\\Microsoft\\Protect\\Recovery\\Recovery.dat'
+2022-01-23 21:16:46,468 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 13] Permission denied: 'G:\\Windows\\System32\\restore\\MachineGuid.txt'
+2022-01-23 21:16:47,166 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 13] Permission denied: 'G:\\Windows\\System32\\wbem\\AutoRecover\\7A462C6DBE55547A40AD70105EF86D88.mof'
+2022-01-23 21:16:47,749 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 13] Permission denied: 'G:\\Windows\\System32\\winevt\\Logs\\AirSpaceChannel.etl'
+2022-01-23 21:17:05,932 DEBUG :: Setting Target path: G:\
+2022-01-23 21:17:13,135 DEBUG :: Setting Hash path: C:\Users\j.mckeown\Documents\_01-TEST\hashesfolder
+2022-01-23 21:17:18,307 DEBUG :: Setting Hash path: C:\Users\j.mckeown\Documents\_01-TEST\report
+2022-01-23 21:17:19,508 DEBUG :: BEGIN: FileSearcher.build_hash_lists()
+2022-01-23 21:17:19,509 DEBUG :: COMPLETE: FileSearcher.build_hash_lists()
+2022-01-23 21:17:19,509 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 13] Permission denied: 'G:\\pagefile.sys'
+2022-01-23 21:17:35,357 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 13] Permission denied: 'G:\\ProgramData\\Microsoft\\User Account Pictures\\b.davies.dat'
+2022-01-23 21:17:36,003 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 13] Permission denied: 'G:\\Windows\\appcompat\\appraiser\\Appraiser_AlternateData.cab'
+2022-01-23 21:17:40,618 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 13] Permission denied: 'G:\\Windows\\Logs\\DPX\\setupact.log'
+2022-01-23 21:17:40,620 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 13] Permission denied: 'G:\\Windows\\Logs\\MoSetup\\UpdateAgent.log'
+2022-01-23 21:17:42,150 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 13] Permission denied: 'G:\\Windows\\Panther\\UnattendGC\\diagerr.xml'
+2022-01-23 21:17:42,366 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 13] Permission denied: 'G:\\Windows\\security\\database\\secedit.sdb'
+2022-01-23 21:18:10,013 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 13] Permission denied: 'G:\\Windows\\System32\\Microsoft\\Protect\\Recovery\\Recovery.dat'
+2022-01-23 21:18:10,294 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 13] Permission denied: 'G:\\Windows\\System32\\restore\\MachineGuid.txt'
+2022-01-23 21:18:10,783 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 13] Permission denied: 'G:\\Windows\\System32\\wbem\\AutoRecover\\7A462C6DBE55547A40AD70105EF86D88.mof'
+2022-01-23 21:18:11,181 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 13] Permission denied: 'G:\\Windows\\System32\\winevt\\Logs\\AirSpaceChannel.etl'
+2022-01-23 21:18:25,953 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 13] Permission denied: 'G:\\Windows\\WinSxS\\amd64_microsoft-windows-n..n_service_datastore_31bf3856ad364e35_10.0.18362.1_none_a38c00a7b3382633\\dnary.xsd'
+2022-01-23 21:18:30,169 ERROR :: Excepiton while trying to process files. MESSAGE [Errno 13] Permission denied: 'G:\\Windows\\WinSxS\\amd64_microsoft-windows-u..userpredictionmodel_31bf3856ad364e35_10.0.18362.1_none_5f36214c9498167b\\SBCModel.json'
+2022-01-23 21:18:45,358 INFO :: total files searched: 196099 Total files access denied: 13
+2022-01-23 21:18:52,552 DEBUG :: Writing 2022-01-d-21-18-52-f_triage_report.txt to  C:\Users\j.mckeown\Documents\_01-TEST\report\2022-01-d-21-18-52-f_triage_report.txt
+2022-01-23 21:18:52,553 DEBUG :: Writing 2022-01-d-21-18-52-f_triage_report-unhashed_files.csv to  C:\Users\j.mckeown\Documents\_01-TEST\report\2022-01-d-21-18-52-f_triage_report-unhashed_files.csv
+2022-01-23 21:22:03,650 DEBUG :: Setting Target path: .
